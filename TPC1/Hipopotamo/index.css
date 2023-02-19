@@ -1,0 +1,42 @@
+body {
+    background-color: lightgrey;
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sec1{
+    padding-bottom: 5%;
+}
+
+.p1{
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+
+.p2{
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+img{
+    width: 27%;
+}
+
+.d1{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 1.5%;
+}
