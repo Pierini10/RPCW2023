@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <título>TPC2</título>
+        <subtítulo>Servidor de arqueologia</subtítulo>
+        <data>2023-02-26</data>
+        <autor>
+            <nome>Cristiano José Gonçalves Neiva Pereira</nome>
+            <id>PG50304</id>
+            <gitlink>https://github.com/Pierini10/RPCW2023</gitlink>
+        </autor>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+    </meta>
+    <resumo>
+        <p>Servidor de arqueologia, aonde um ficheiro XML é dividido em vários e também em ficheiros
+            HTML, aonde um servidor NodeJS tem acesso e dá as páginas ao utilizador.</p>
+    </resumo>
+    <resultados>
+        <resultado path="/">Tem o ficheiro python que gera todos os ficheiros XML e HTML e um
+            ficheiro JS que cria o servidor.</resultado>
+    </resultados>
+</manifesto>
