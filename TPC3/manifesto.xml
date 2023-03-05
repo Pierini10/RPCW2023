@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <título>TPC 3</título>
+        <subtítulo>Servidor de pessoas</subtítulo>
+        <data>2023-03-05</data>
+        <autor>
+            <nome>Cristiano José Gonçalves Neiva Pereira</nome>
+            <id>PG50304</id>
+            <gitlink>https://github.com/Pierini10/RPCW2023</gitlink>
+        </autor>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+    </meta>
+    <resumo>
+        <p>Servidor para uma base de dados em JSON, aonde há várias páginas para diferentes
+            atributos das pessoas (como profissão, sexo e desportos).</p>
+    </resumo>
+    <resultados>
+        <resultado path="/src">Nesta diretoria tem todo o código de HTML, JavaScript e CSS necessário.</resultado>
+    </resultados>
+</manifesto>
