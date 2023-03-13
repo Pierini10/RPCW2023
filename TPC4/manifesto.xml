@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <título>TPC 4</título>
+        <subtítulo>Servidor de pessoas</subtítulo>
+        <data>2023-03-12</data>
+        <autor>
+            <nome>Cristiano José Gonçalves Neiva Pereira</nome>
+            <id>PG50304</id>
+            <gitlink>https://github.com/Pierini10/RPCW2023</gitlink>
+        </autor>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+    </meta>
+    <resumo>
+        <p>Servidor com apenas uma página para fazer ToDo lists. Para correr o Json server apenas
+            fazer npm run json-server, para o servidor com a página npm run server.</p>
+    </resumo>
+    <resultados>
+        <resultado path="/src">Nesta diretoria tem todo o código de JavaScript necessário.</resultado>
+    </resultados>
+</manifesto>
