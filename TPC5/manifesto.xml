@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifesto>
     <meta>
-        <título>TPC 4</título>
+        <título>TPC 5</título>
         <subtítulo>ToDo Website</subtítulo>
         <data>2023-03-12</data>
         <autor>
@@ -12,10 +12,12 @@
         <uc>Representação e Processamento de Conhecimento na Web</uc>
     </meta>
     <resumo>
-        <p>Servidor com apenas uma página para fazer ToDo lists. Para correr o Json server apenas
+        <p>Servidor com apenas uma página para fazer ToDo lists, utilizando o pacote ExpressJs. Para
+            correr o Json server apenas
             fazer npm run json-server, para o servidor com a página npm run server.</p>
     </resumo>
     <resultados>
-        <resultado path="/src">Nesta diretoria tem todo o código de JavaScript necessário.</resultado>
+        <resultado path="/">Todo o código do website. Estrutura de diretorias gerada pelo Express
+            generator.</resultado>
     </resultados>
 </manifesto>
