@@ -2,8 +2,8 @@
 <manifesto>
     <meta>
         <título>TPC 5</título>
-        <subtítulo>ToDo Website</subtítulo>
-        <data>2023-03-19</data>
+        <subtítulo>Pessoas Website</subtítulo>
+        <data>2023-03-26</data>
         <autor>
             <nome>Cristiano José Gonçalves Neiva Pereira</nome>
             <id>PG50304</id>
@@ -12,9 +12,7 @@
         <uc>Representação e Processamento de Conhecimento na Web</uc>
     </meta>
     <resumo>
-        <p>Servidor com apenas uma página para fazer ToDo lists, utilizando o pacote ExpressJs. Para
-            correr o Json server apenas
-            fazer npm run json-server, para o servidor com a página npm run server.</p>
+        <p>Website para o dataset de pessoas em mongoDB.</p>
     </resumo>
     <resultados>
         <resultado path="/">Todo o código do website. Estrutura de diretorias gerada pelo Express
