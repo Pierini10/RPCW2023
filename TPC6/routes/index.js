@@ -6,8 +6,8 @@ var Pessoa = require('../controllers/pessoa')
 router.get('/', function(req, res, next) {
   var data = new Date().toISOString().substring(0, 16)
   Pessoa.list()
-    .then(Pessoas => {
-      res.render('index', { slist: Pessoas, d: data });
+    .then(pessoas => {
+      res.render('index', { plist: pessoas, d: data });
     })
     .catch(erro => {
       res.render('error', {error: erro, message: "Erro na obtenção da lista de Pessoas"})

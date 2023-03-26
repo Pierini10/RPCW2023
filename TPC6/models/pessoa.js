@@ -1,11 +1,11 @@
-const mangoose = require('mangoose');
+const mongoose = require('mongoose');
 
-var moradaSchema = new mangoose.Schema({
+var moradaSchema = new mongoose.Schema({
     cidade: String,
     distrito: String,
 });
 
-var atributoSchema = new mangoose.Schema({
+var atributoSchema = new mongoose.Schema({
     fumador: Boolean,
     gosta_cinema: Boolean,
     gosta_viajar: Boolean,
@@ -18,7 +18,7 @@ var atributoSchema = new mangoose.Schema({
     comida_favorita: String,
 });
 
-var pessoaSchema = new mangoose.Schema({
+var pessoaSchema = new mongoose.Schema({
     nome: String,
     idade: Number,
     sexo: String,
